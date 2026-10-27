@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0a0d">
+  <meta name="description" content="منصة أبو هاشم للأمن السيبراني والتوعية الرقمية والأدوات التقنية.">
+  <title>أبو هاشم | المنصة التقنية</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="أبو هاشم">
+      <span class="brand-mark">أH</span><span><b>أبو هاشم</b><small>المنصة التقنية</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">☰</button>
+    <nav id="nav">
+      <a href="#tools">الأدوات</a><a href="#learn">تعلّم</a><a href="#assistant">المساعد الذكي</a><a href="#about">عن المنصة</a>
+    </nav>
+    <a class="top-cta" href="#assistant">ابدأ الآن <span>↗</span></a>
+  </header>
+
+  <main id="home">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> الأمن الرقمي يبدأ بالمعرفة</div>
+        <h1>اكتشف العالم الرقمي<br><span>بعينٍ أكثر أماناً.</span></h1>
+        <p class="hero-text">منصة أبو هاشم تجمع أدوات تقنية مفيدة، ومحتوى توعوي، ومساعداً ذكياً لمساعدتك على فهم الأمن السيبراني وحماية حساباتك وأجهزتك.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#tools">استكشف الأدوات <span>←</span></a><a class="btn btn-ghost" href="#learn">ابدأ التعلّم</a></div>
+        <div class="trust-row"><span>● أدوات توعوية</span><span>● واجهة عربية</span><span>● مناسبة للموبايل</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="shield"><div class="shield-inner">⌁</div></div>
+        <div class="floating-card card-top"><span class="mini-icon">⌘</span><div><b>مساحة آمنة للتعلّم</b><small>تعلّم بخطوات واضحة</small></div><i>✓</i></div>
+        <div class="floating-card card-bottom"><span class="status-dot"></span><div><b>أبو هاشم AI</b><small>مساعدك التقني</small></div><span class="live-pill">جاهز</span></div>
+        <div class="code-lines"><span>01</span> حماية الحسابات<br><span>02</span> الوعي الرقمي<br><span>03</span> تعلّم مستمر</div>
+      </div>
+    </section>
+
+    <section class="stats wrap">
+      <div><strong>01</strong><span>منصة عربية</span></div><div><strong>24/7</strong><span>تصفّح الأدوات</span></div><div><strong>∞</strong><span>مساحة للتعلّم</span></div><div><strong class="red-text">آمن</strong><span>تركيز على الحماية</span></div>
+    </section>
+
+    <section class="section wrap" id="tools">
+      <div class="section-head"><div><div class="eyebrow">صندوق الأدوات</div><h2>أدواتك التقنية <span>بمكان واحد.</span></h2><p>اختَر الأداة المناسبة، واستخدمها للتعلّم والحماية الرقمية.</p></div><div class="search-box"><span>⌕</span><input id="toolSearch" placeholder="ابحث عن أداة..." aria-label="ابحث عن أداة"></div></div>
+      <div class="tool-grid" id="toolGrid">
+        <article class="tool-card" data-search="فحص الروابط التصيد الاحتيال"><div class="tool-icon red">↗</div><span class="tag">حماية</span><h3>دليل فحص الروابط</h3><p>تعرّف على علامات الرابط المشبوه قبل فتحه.</p><button class="text-button" data-modal="links">افتح الدليل <span>←</span></button></article>
+        <article class="tool-card" data-search="كلمة مرور قوية مولد كلمات المرور"><div class="tool-icon">⌑</div><span class="tag">خصوصية</span><h3>مولّد كلمات مرور</h3><p>أنشئ كلمة مرور قوية مباشرة على جهازك.</p><button class="text-button" data-modal="password">إنشاء كلمة مرور <span>←</span></button></article>
+        <article class="tool-card" data-search="معلومات الدومين النطاق"><div class="tool-icon">◎</div><span class="tag">معلومات</span><h3>معلومات الدومين</h3><p>افتح مصادر عامة للاستعلام عن النطاقات.</p><button class="text-button" data-modal="domain">استعلام عن نطاق <span>←</span></button></article>
+        <article class="tool-card" data-search="رؤوس الحماية ترويسات الموقع"><div class="tool-icon red">⌘</div><span class="tag">توعية</span><h3>رؤوس الحماية</h3><p>تعرّف على ترويسات HTTP الأمنية ووظيفتها.</p><button class="text-button" data-modal="headers">عرض الشرح <span>←</span></button></article>
+        <article class="tool-card" data-search="تشفير تجزئة hash"><div class="tool-icon">#</div><span class="tag">تعليم</span><h3>التجزئة Hash</h3><p>جرّب إنشاء بصمة SHA-256 لنص محلياً.</p><button class="text-button" data-modal="hash">جرّب الأداة <span>←</span></button></article>
+        <article class="tool-card" data-search="رمز QR رابط مشاركة"><div class="tool-icon">▦</div><span class="tag">أداة</span><h3>إنشاء رمز QR</h3><p>حوّل نصاً أو رابطاً إلى رمز قابل للمسح.</p><button class="text-button" data-modal="qr">إنشاء رمز <span>←</span></button></article>
+      </div>
+      <div id="noResults" class="empty-state" hidden>ما لقينا أدوات تطابق بحثك.</div>
+    </section>
+
+    <section class="assistant-section" id="assistant">
+      <div class="wrap assistant-layout">
+        <div class="assistant-copy"><div class="eyebrow"><span class="pulse"></span> مساعد المنصة</div><h2>اسأل أبو هاشم.<br><span>وتعلّم بثقة.</span></h2><p>اسأل عن حماية الحسابات، التوعية بالتصيّد، أساسيات الشبكات، أو مفاهيم الأمن السيبراني. يحتاج المساعد إلى إعداد مفتاح API على الخادم حتى يعمل.</p><div class="suggestions"><button data-prompt="شلون أحمي حساباتي من السرقة؟">شلون أحمي حساباتي؟</button><button data-prompt="اشرحلي شنو هو التصيد الإلكتروني مع أمثلة آمنة">شنو هو التصيّد؟</button><button data-prompt="علمني أساسيات الأمن السيبراني للمبتدئين">ابدأ وياي من الصفر</button></div></div>
+        <div class="chat-card">
+          <div class="chat-header"><div class="bot-avatar">أH</div><div><b>أبو هاشم AI</b><small><span class="status-dot"></span> مساعد التوعية التقنية</small></div><button id="clearChat" class="clear-chat" title="مسح المحادثة">↻</button></div>
+          <div class="chat-messages" id="chatMessages" aria-live="polite"><div class="message assistant-message"><span class="message-avatar">أH</span><div class="bubble">هلا بيك! أني مساعد أبو هاشم. اسألني عن حماية حساباتك أو تعلّم الأمن السيبراني بطريقة آمنة. <small>تأكد من عدم مشاركة كلمات المرور أو المعلومات الخاصة.</small></div></div></div>
+          <form id="chatForm" class="chat-form"><textarea id="chatInput" rows="1" maxlength="4000" placeholder="اكتب سؤالك هنا..." aria-label="اكتب سؤالك"></textarea><button type="submit" id="sendBtn" aria-label="إرسال الرسالة">➤</button></form>
+          <div class="chat-foot"><span>قد يخطئ الذكاء الاصطناعي؛ تحقّق من المعلومات المهمة.</span><span id="aiStatus">جارٍ فحص الاتصال...</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="learn">
+      <div class="section-head"><div><div class="eyebrow">طريق المعرفة</div><h2>تعلّم الحماية <span>خطوة بخطوة.</span></h2><p>ابدأ بالأساسيات وابنِ عادات رقمية أفضل.</p></div></div>
+      <div class="learn-grid">
+        <article class="learn-card"><div class="learn-number">01 / الأساسيات</div><h3>حماية الحسابات</h3><p>استخدم كلمات مرور فريدة، ومدير كلمات مرور، والمصادقة متعددة العوامل.</p><a href="https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams" target="_blank" rel="noopener">تعرّف على التصيّد <span>↗</span></a></article>
+        <article class="learn-card"><div class="learn-number">02 / التوعية</div><h3>اكتشاف الاحتيال</h3><p>تحقّق من عنوان المرسل والنطاق، ولا تضغط على الروابط المستعجلة أو غير المتوقعة.</p><a href="https://www.cisa.gov/secure-our-world" target="_blank" rel="noopener">نصائح أمنية <span>↗</span></a></article>
+        <article class="learn-card"><div class="learn-number">03 / الممارسة</div><h3>تعلّم قانوني</h3><p>تدرّب داخل مختبرات مصممة للتعلّم، وعلى أنظمة تملكها أو لديك إذن لاختبارها.</p><a href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noopener">أساسيات أمن الويب <span>↗</span></a></article>
+      </div>
+    </section>
+
+    <section class="section wrap about-section" id="about"><div class="about-panel"><div class="brand-mark large">أH</div><div><div class="eyebrow">عن المنصة</div><h2>التقنية أقوى <span>لما نفهمها.</span></h2><p>أبو هاشم منصة عربية للتعلّم والأدوات التقنية، هدفها تبسيط مفاهيم الأمن الرقمي وتشجيع الاستخدام المسؤول للتكنولوجيا.</p></div><a class="btn btn-primary" href="#home">للأعلى ↑</a></div></section>
+  </main>
+
+  <footer class="footer"><div class="wrap footer-inner"><a class="brand" href="#home"><span class="brand-mark">أH</span><span><b>أبو هاشم</b><small>المنصة التقنية</small></span></a><p>© <span id="year"></span> أبو هاشم. للتعلّم والحماية الرقمية.</p><span class="footer-note">صُمّم للعالم العربي ♥</span></div></footer>
+
+  <div class="modal-backdrop" id="modalBackdrop" hidden><div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-head"><h3 id="modalTitle">الأداة</h3><button id="closeModal" aria-label="إغلاق">×</button></div><div id="modalContent"></div></div></div>
+  <script src="/app.js"></script>
+</body>
+</html>
